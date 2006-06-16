@@ -1,0 +1,84 @@
+sdcv
+------------------------------------------
+Command line version of the StarDict dictionary for GNOME.
+
+Dictionaries need to be downloaded separately from the
+website and decompressed in /usr/share/stardict/dic/.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  glib2-2.8.6-1
+  libreadline6-5.1-5
+  zlib-1.2.3-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.1.92-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  gcc-g++-3.4.4-1
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+
+Canonical website:
+  http://sdcv.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/sdcv/
+
+-------------------------------------------
+
+Build instructions:
+  unpack sdcv-0.4.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./sdcv-0.4.2-X.cygport all
+
+This will create:
+  /usr/src/sdcv-0.4.2-X-src.tar.bz2
+  /usr/src/sdcv-0.4.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/sdcv.exe
+  /usr/share/doc/Cygwin/sdcv-0.4.2.README
+  /usr/share/doc/sdcv-0.4.2/ABOUT-NLS
+  /usr/share/doc/sdcv-0.4.2/AUTHORS
+  /usr/share/doc/sdcv-0.4.2/BUGS
+  /usr/share/doc/sdcv-0.4.2/COPYING
+  /usr/share/doc/sdcv-0.4.2/ChangeLog
+  /usr/share/doc/sdcv-0.4.2/DICTFILE_FORMAT
+  /usr/share/doc/sdcv-0.4.2/INSTALL
+  /usr/share/doc/sdcv-0.4.2/NEWS
+  /usr/share/doc/sdcv-0.4.2/README
+  /usr/share/doc/sdcv-0.4.2/TODO
+  /usr/share/man/man1/sdcv.1.gz
+  /usr/share/man/uk/man1/sdcv.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.4.2-1 -----
+Version bump.
+
+----- version 0.4.1-1 -----
+Version bump.
+
+----- version 0.3.4-1 -----
+Version bump.
+
+----- version 0.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

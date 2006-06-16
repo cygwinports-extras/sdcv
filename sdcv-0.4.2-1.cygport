@@ -1,0 +1,5 @@
+DESCRIPTION="CLI for the StarDict dictionaries"
+HOMEPAGE="http://sdcv.sourceforge.net/"
+SRC_URI="http://easynews.dl.sourceforge.net/${PN}/${P}.tar.bz2"
+
+DOCS="doc/DICTFILE_FORMAT"
