@@ -1,4 +1,4 @@
 category: Text
-requires: cygwin glib2 libreadline6 zlib
+requires: glib2 libreadline6 zlib
 sdesc: "Command-line StarDict dictionary"
 ldesc: "Command line version of the StarDict dictionary for GNOME."
